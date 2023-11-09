@@ -4,15 +4,12 @@
     <meta charset="UTF-8">
     <title>Matthew Gross's Resume Website</title>
     <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/styles/main.css">
   </head>
   <body>
     <header>
-      <div id="left-header">
-        <h1>Matthew Gross</h1>
-        <p style="font-family: 'Calibri'; font-size: 1vw;">Currently Studying Computer Engineering @ UC San Diego</p>
-      </div>
-      <nav id="right-header">
+      <h1>Matthew Gross</h1>
+      <nav>
         <a href="/pages/about_me.html">About Me</a>
         <a href="/pages/contact.html">Contact</a>
         <a href="/pages/media.html">Media</a>
@@ -21,33 +18,31 @@
       </nav>
     </header>
     <main>
-      <div>
+      <h2>Hi! I'm Matthew.</h2>
+      <img id="matthew" src="images/matthew.jpg" alt="Picture of Me">
+      <div id="page-content">
         <section>
-          <h2 id="hi-im-matthew">Hi! I'm Matthew.</h2>
-          <img id="matthew" src="images/matthew.jpg" alt="Picture of Me">
+          <h3>Welcome to my website!</h3>
+          <p>I am currently working on finishing up my Bachelors degree in Computer Engineering <i>(it's kind of like Computer Science and Electrical Engineering combined)</i> at UC San Diego.<br>I have experience with various programming and hardware development languages, including:</p>
+          <ul>
+            <li>Java</li>
+            <li>C/C++</li>
+            <li>Python</li>
+            <li>MATLAB</li>
+            <li>ARM, x86, and MIPS Assembly</li>
+            <li>SystemVerilog</li>
+          </ul>
+          <p>I also have some experience with Linux terminal navigation, soldering, 3D printing, and some electrical wiring design.</p>
+          <p>If you want to say hello or have any questions, feel free to <a href="pages/contact.html">contact me!</a></p>
         </section>
-        <h3>Welcome to my website!</h3>
-        <p>
-          I am currently working on finishing up my Bachelors degree in Computer Engineering <em>(it's kind of like Computer Science and Electrical Engineering combined)</em> at UC San Diego. I have experience with various programming and hardware development languages, including:
-        </p>
-        <ul>
-          <li>Java</li>
-          <li>C/C++</li>
-          <li>Python</li>
-          <li>MATLAB</li>
-          <li>ARM and x86 Assembly</li>
-          <li>SystemVerilog</li>
-        </ul>
-        <p>I also have some experience with Linux terminal navigation, soldering, 3D printing, and some electrical wiring design.</p>
-        <p>If you want to say hello or have any questions, feel free to <a href="pages/contact.html">contact me!</a></p>
+        <details>
+          <summary>Connect with me!</summary>
+          <a href="https://www.instagram.com/mattilac__/">
+            <img id="instagram" src="images/instagram.jpg" alt="Instagram">
+          </a>
+          <!-- put some other socials here later -->
+        </details>
       </div>
     </main>
-    <footer>
-      <details>
-        <summary>Connect with me!</summary>
-        <a href="https://www.instagram.com/mattilac__/">Instagram</a>
-        <!-- put some other socials here later -->
-      </details>
-    </footer>
   </body>
 </html>
